@@ -1,0 +1,28 @@
+{
+  "name": "http-cookie",
+  "version": "1.0.0",
+  "description": "Hi",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Li-Ning-Studio/http-cookie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Li-Ning-Studio/http-cookie/issues"
+  },
+  "homepage": "https://github.com/Li-Ning-Studio/http-cookie#readme",
+  "dependencies": {
+    "typescript": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.1.0",
+    "ts-jest": "^27.0.5"
+  }
+}
