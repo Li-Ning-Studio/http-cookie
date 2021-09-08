@@ -51,7 +51,7 @@ export default class HttpCookie {
       str = `${str} SameSite=${cookie.sameSite};`
     }
     if(cookie.path != undefined) {
-      str = `${str} Path=${cookie.path}`
+      str = `${str} Path="${cookie.path}"`
     }
     return str;
   }
